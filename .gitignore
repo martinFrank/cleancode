@@ -1,8 +1,8 @@
 #ide directory
-.idea/
+/.idea/
 
 # Compiled class file
 *.class
 
 #target directory
-target/
+/target/
