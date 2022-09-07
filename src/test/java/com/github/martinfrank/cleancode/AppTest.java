@@ -1,4 +1,4 @@
-package com.github.martinfran;
+package com.github.martinfrank.cleancode;
 
 import static org.junit.Assert.assertTrue;
 
