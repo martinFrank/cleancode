@@ -10,7 +10,7 @@ public class SquareEquationSolver {
 
     private static double[] findZerosInSquareEquation(double a, double b, double c) {
         if(a == 0){
-            throw new IllegalArgumentException("square euations muste have a non-zero a parameter");
+            throw new IllegalArgumentException("square equations must have a non-zero a parameter");
         }
         double discriminant = Math.pow(b,2) - 4 * a * c;
         double n1 = 0;
