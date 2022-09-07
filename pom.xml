@@ -19,7 +19,8 @@
         <sonar.projectKey>martinFrank_cleancode</sonar.projectKey>
         <sonar.organization>martinfrank-github</sonar.organization>
         <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-        <sonar.coverage.exclusions>**src/test/**/*.*</sonar.coverage.exclusions>
+        <sonar.source>src/main/**</sonar.source>
+        <sonar.tests>src/tests/**</sonar.tests>
     </properties>
 
     <dependencies>
