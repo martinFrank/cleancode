@@ -17,13 +17,13 @@
 
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 <!--        <sonar.login>2abf9ace46c0c7303f549c6729dde0e88998ef1c</sonar.login>-->
-        <sonar.projectKey>martinFrank_cleancode</sonar.projectKey>
+<!--        <sonar.projectKey>martinFrank_cleancode</sonar.projectKey>-->
         <sonar.organization>martinfrank-github</sonar.organization>
-        <sonar.language>java</sonar.language>
-        <sonar.java.libraries>target</sonar.java.libraries>
+<!--        <sonar.language>java</sonar.language>-->
+<!--        <sonar.java.libraries>target</sonar.java.libraries>-->
         <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-        <sonar.scm.provider>git</sonar.scm.provider>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!--        <sonar.scm.provider>git</sonar.scm.provider>-->
+<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
     </properties>
 
     <dependencies>
@@ -80,11 +80,11 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.2</version>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.codehaus.mojo</groupId>-->
+<!--                <artifactId>sonar-maven-plugin</artifactId>-->
+<!--                <version>3.2</version>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
