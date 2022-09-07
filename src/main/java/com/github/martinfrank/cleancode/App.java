@@ -6,12 +6,12 @@ public class App {
         double b = 0;
         double c = -2;
 
-        String result = findZerosInSquareEquation(a,b,c);
-        System.out.println(result);
+        double[] result = findZerosInSquareEquation(a,b,c);
+        System.out.println("the zeroes are at " + result[0] + " and at " +result[1]);
     }
 
-    private static String findZerosInSquareEquation(double a, double b, double c) {
-        double discriminant = Math.pow(a,2) - 4 * a * c;
+    public static double[] findZerosInSquareEquation(double a, double b, double c) {
+        double discriminant = Math.pow(b,2) - 4 * a * c;
         double n1 = 0;
         double n2 = 0;
         if (a > 0) {
@@ -26,6 +26,6 @@ public class App {
             n1 = Double.NaN;
             n2 = n1;
         }
-        return "the zeroes are at " + n1 + " and at " +n2;
+        return new double[]{n1,n2};
     }
 }
