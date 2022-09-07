@@ -12,15 +12,15 @@ public class SquareEquationSolver {
         double discriminant = Math.pow(b,2) - 4 * a * c;
         double n1 = 0;
         double n2 = 0;
-        if (a > 0) {
+        if (discriminant > 0) {
             n1 = (-1*b + Math.sqrt(discriminant))/(2*a);
             n2 = (-1*b - Math.sqrt(discriminant))/(2*a);
         }
-        if (a == 0) {
+        if (discriminant == 0) {
             n1 = (-1*b )/(2*a);
             n2 = n1;
         }
-        if (a < 0) {
+        if (discriminant < 0) {
             n1 = Double.NaN;
             n2 = n1;
         }
